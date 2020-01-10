@@ -61,7 +61,7 @@
     	<footer class="container-fluid">
     		<div class="padding20 text-right">
                 <?= $Wcms->footer() ?>
-                <?php echo contact_form(); ?>
+                
     
     		</div>
     	</footer>
