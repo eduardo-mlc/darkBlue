@@ -1,5 +1,5 @@
 <?php global $Wcms ?>
-<?php echo contact_form(); ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
