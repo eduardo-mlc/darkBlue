@@ -61,23 +61,7 @@
     
     	<footer class="container-fluid">
     		<div class="padding20 text-right">
-                <?= $Wcms->footer() ?>
-                
-    
-    		</div><?php if (wCMS::$currentPage == 'contact'): ?>
-	<?php
-		global $contact_form_email;
-		$contact_form_email = "your.email@example.com";
-	?>
-
-	<div class="container marginTop20">
-		<div class="col-xs-12 col-md-6 col-md-offset-3">
-			<div id="contactform" class="grayFont" style="height: 265px;">
-         		  	<?php contact_form(); ?>
-			</div>
-		</div>
-	</div>
-<?php endif ?>
+                <?= $Wcms->footer() ?
             
     	</footer>
     
