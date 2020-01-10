@@ -1,14 +1,4 @@
 <?php global $Wcms ?>
-<?php
-global $contact_form_email;$contact_form_email = "your.email@example.com";
-?>
-<div class="container">
-<div class="col-xs-12 col-md-6 col-md-offset-3">
-<div id="contactform" class="grayFont">
-<?php contact_form(); ?>
-</div>
-</div>
-</div>
 
 <!DOCTYPE html>
 <html lang="en">
